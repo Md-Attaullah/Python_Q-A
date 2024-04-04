@@ -1,18 +1,18 @@
-Fruit = str(input("Which Fruit Have :")) 
+Fruit = str(input("Which Fruit Have :")).upper()
 
 
-if Fruit == "Banana" or Fruit == "Pinapale" or Fruit == "banana" or Fruit == "pinapale":
+if Fruit == "BANANA" or Fruit == "PINAPALE":
     print
 else:
     print("We Dont have the data of the",Fruit) 
     exit()
 
-Colour = str(input("What is the Colour Of the Given Fruit :"))
+Colour = str(input("What is the Colour Of the Given Fruit :")).upper()
 
-if Fruit == "Banana" or Fruit == "Pinapale" or Fruit == "banana" or Fruit == "pinapale":
-    if Colour == "Green" or Colour == "green":
+if Fruit == "BANANA" or Fruit == "PINAPALE":
+    if Colour == "GREEN":
         print(Fruit,"is Unripe")
-    elif Colour == "Yellow" or Colour == "yellow":
+    elif Colour == "YELLOW":
         print(Fruit,"is Ripe")
-    elif Colour == "Brown" or Colour == "brown":
+    elif Colour == "BROWN":
         print(Fruit,"is OverRipe")
